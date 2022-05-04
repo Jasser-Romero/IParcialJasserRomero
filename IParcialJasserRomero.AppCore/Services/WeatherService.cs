@@ -21,9 +21,9 @@ namespace IParcialJasserRomero.AppCore.Services
             model.Create(t);
         }
 
-        public void CreateDTO(WeatherHistorial t)
+        public void CreateDTO(WeatherHistorial t, OpenWeather g)
         {
-            model.CreateDTO(t);
+            model.CreateDTO(t, g);
         }
 
         public List<WeatherHistorial> Read()

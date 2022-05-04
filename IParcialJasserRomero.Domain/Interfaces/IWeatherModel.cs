@@ -9,7 +9,7 @@ namespace IParcialJasserRomero.Domain.Interfaces
 {
     public interface IWeatherModel : IModel<WeatherHistorial>
     {
-        void CreateDTO(WeatherHistorial t);
+        void CreateDTO(WeatherHistorial t, OpenWeather g);
         List<WeatherDTO> ReadDTOs();
     }
 }

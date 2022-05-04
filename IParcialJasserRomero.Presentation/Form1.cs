@@ -40,7 +40,7 @@ namespace IParcialJasserRomero.Presentation
                 Task.Run(Request).Wait();
                 List<WeatherHistorial> list = historicalWeather.Select(x => WeatherHistorial.CreateHistorial(x)).ToList();
                 list.ForEach(x => weatherService.Create(x));
-                list.ForEach(x => weatherService.CreateDTO(x));
+                list.ForEach(x => weatherService.CreateDTO(x, openWeather));
 
                 if (openWeather == null)
                 {

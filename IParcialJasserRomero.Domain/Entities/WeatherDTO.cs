@@ -9,6 +9,7 @@ namespace IParcialJasserRomero.Domain.Entities
     public class WeatherDTO
     {
         public int Id { get; set; }
+        public string Name { get; set; }
         public string Timezone { get; set; }
         public double Temp { get; set; }
         public string Weather { get; set; }
@@ -20,15 +21,16 @@ namespace IParcialJasserRomero.Domain.Entities
         public double Lon { get; set; }
         public double Wind_Speed { get; set; }
 
-        public static WeatherDTO MapWeather(WeatherHistorial weather)
+        public static WeatherDTO MapWeather(WeatherHistorial weather, OpenWeather open)
         {
             if (weather == null)
             {
                 throw new ArgumentNullException(nameof(weather));
             }
 
-            WeatherDTO subModel = new WeatherDTO()
+            return new WeatherDTO()
             {
+                Name = open.Name,
                 Timezone = weather.Timezone,
                 Temp = weather.Current.Temp,
                 Weather = weather.Current.Weather[0].Main,
@@ -41,7 +43,7 @@ namespace IParcialJasserRomero.Domain.Entities
                 Wind_Speed = weather.Current.Wind_Speed
             };
 
-            return subModel;
+            
         }
 
 

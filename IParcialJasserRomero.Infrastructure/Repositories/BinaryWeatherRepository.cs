@@ -26,9 +26,9 @@ namespace IParcialJasserRomero.Infrastructure.Repositories
             context.Create(subModel);
         }
 
-        public void CreateDTO(WeatherHistorial t)
+        public void CreateDTO(WeatherHistorial t, OpenWeather g)
         {
-            WeatherDTO dto = WeatherDTO.MapWeather(t);
+            WeatherDTO dto = WeatherDTO.MapWeather(t, g);
             context2.Create(dto);
         }
 

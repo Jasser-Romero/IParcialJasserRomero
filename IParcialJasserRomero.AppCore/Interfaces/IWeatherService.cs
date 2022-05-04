@@ -9,7 +9,7 @@ namespace IParcialJasserRomero.AppCore.Interfaces
 {
     public interface IWeatherService : IService<WeatherHistorial>
     {
-        void CreateDTO(WeatherHistorial t);
+        void CreateDTO(WeatherHistorial t, OpenWeather g);
         List<WeatherDTO> ReadDTOs();
     }
 }
