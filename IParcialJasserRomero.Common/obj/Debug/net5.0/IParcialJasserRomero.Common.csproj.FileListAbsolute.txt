@@ -1,0 +1,12 @@
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Common\bin\Debug\net5.0\IParcialJasserRomero.Common.deps.json
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Common\bin\Debug\net5.0\IParcialJasserRomero.Common.dll
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Common\bin\Debug\net5.0\ref\IParcialJasserRomero.Common.dll
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Common\bin\Debug\net5.0\IParcialJasserRomero.Common.pdb
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\IParcialJasserRomero.Common.csproj.AssemblyReference.cache
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\IParcialJasserRomero.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\IParcialJasserRomero.Common.AssemblyInfoInputs.cache
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\IParcialJasserRomero.Common.AssemblyInfo.cs
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\IParcialJasserRomero.Common.csproj.CoreCompileInputs.cache
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\IParcialJasserRomero.Common.dll
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\ref\IParcialJasserRomero.Common.dll
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\IParcialJasserRomero.Common.pdb

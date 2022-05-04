@@ -1,0 +1,17 @@
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\bin\Debug\net5.0\IParcialJasserRomero.Infrastructure.deps.json
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\bin\Debug\net5.0\IParcialJasserRomero.Infrastructure.dll
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\bin\Debug\net5.0\ref\IParcialJasserRomero.Infrastructure.dll
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\bin\Debug\net5.0\IParcialJasserRomero.Infrastructure.pdb
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\bin\Debug\net5.0\IParcialJasserRomero.Common.dll
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\bin\Debug\net5.0\IParcialJasserRomero.Domain.dll
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\bin\Debug\net5.0\IParcialJasserRomero.Common.pdb
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\bin\Debug\net5.0\IParcialJasserRomero.Domain.pdb
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\obj\Debug\net5.0\IParcialJasserRomero.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\obj\Debug\net5.0\IParcialJasserRomero.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\obj\Debug\net5.0\IParcialJasserRomero.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\obj\Debug\net5.0\IParcialJasserRomero.Infrastructure.AssemblyInfo.cs
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\obj\Debug\net5.0\IParcialJasserRomero.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\obj\Debug\net5.0\IParcialJasserRomero.Infrastructure.csproj.CopyComplete
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\obj\Debug\net5.0\IParcialJasserRomero.Infrastructure.dll
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\obj\Debug\net5.0\ref\IParcialJasserRomero.Infrastructure.dll
+C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Infrastructure\obj\Debug\net5.0\IParcialJasserRomero.Infrastructure.pdb

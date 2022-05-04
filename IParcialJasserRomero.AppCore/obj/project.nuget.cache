@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0j9nPPHgASnvMBmGtAWFgdTwxJ/iN//Myv1P3lEHkjVAqavW0VA3Y5PDHon4RXQioNFdDR0iQ8HvADcNycSVkw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.AppCore\\IParcialJasserRomero.AppCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JADPA27\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

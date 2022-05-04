@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IParcialJasserRomero.AppCore\IParcialJasserRomero.AppCore.csproj" />
+    <ProjectReference Include="..\IParcialJasserRomero.Infrastructure\IParcialJasserRomero.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
