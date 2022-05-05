@@ -13,7 +13,6 @@ namespace IParcialJasserRomero.Infrastructure.Repositories
     {
         private string fileName;
         private int size;
-        private string temporal = "temporal";
         public RAFContext(string fileName, int size)
         {
             this.fileName = fileName;

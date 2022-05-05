@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vh0XfxjF5zCAF5lYC8m4RNT2OlsKmP+gFZ7CjCIFkpep1uxsSDXtQw/ijoamEjoKpv8BSj/AB5M07QXj5T578w==",
+  "dgSpecHash": "us05XXM26ZaQLlrXJwdD9Mw3mjXrYsSaaOAaF08wGhgffaNEQ+KJgreJMsjEQn9pMT1HfLNQl5sdITOZym2sJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\IParcialJasserRomero.Domain.csproj",
+  "projectFilePath": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\IParcialJasserRomero.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\JADPA27\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\jasse\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Presentation\\IParcialJasserRomero.Presentation.csproj": {}
+    "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Presentation\\IParcialJasserRomero.Presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.AppCore\\IParcialJasserRomero.AppCore.csproj": {
+    "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.AppCore\\IParcialJasserRomero.AppCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.AppCore\\IParcialJasserRomero.AppCore.csproj",
+        "projectUniqueName": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.AppCore\\IParcialJasserRomero.AppCore.csproj",
         "projectName": "IParcialJasserRomero.AppCore",
-        "projectPath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.AppCore\\IParcialJasserRomero.AppCore.csproj",
-        "packagesPath": "C:\\Users\\JADPA27\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.AppCore\\obj\\",
+        "projectPath": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.AppCore\\IParcialJasserRomero.AppCore.csproj",
+        "packagesPath": "C:\\Users\\jasse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.AppCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JADPA27\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jasse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\IParcialJasserRomero.Domain.csproj": {
-                "projectPath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\IParcialJasserRomero.Domain.csproj"
+              "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\IParcialJasserRomero.Domain.csproj": {
+                "projectPath": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\IParcialJasserRomero.Domain.csproj"
               }
             }
           }
@@ -71,20 +72,21 @@
         }
       }
     },
-    "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Common\\IParcialJasserRomero.Common.csproj": {
+    "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Common\\IParcialJasserRomero.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Common\\IParcialJasserRomero.Common.csproj",
+        "projectUniqueName": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Common\\IParcialJasserRomero.Common.csproj",
         "projectName": "IParcialJasserRomero.Common",
-        "projectPath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Common\\IParcialJasserRomero.Common.csproj",
-        "packagesPath": "C:\\Users\\JADPA27\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Common\\obj\\",
+        "projectPath": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Common\\IParcialJasserRomero.Common.csproj",
+        "packagesPath": "C:\\Users\\jasse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JADPA27\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jasse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -138,20 +140,21 @@
         }
       }
     },
-    "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\IParcialJasserRomero.Domain.csproj": {
+    "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\IParcialJasserRomero.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\IParcialJasserRomero.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\IParcialJasserRomero.Domain.csproj",
         "projectName": "IParcialJasserRomero.Domain",
-        "projectPath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\IParcialJasserRomero.Domain.csproj",
-        "packagesPath": "C:\\Users\\JADPA27\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\obj\\",
+        "projectPath": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\IParcialJasserRomero.Domain.csproj",
+        "packagesPath": "C:\\Users\\jasse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JADPA27\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jasse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -201,20 +204,21 @@
         }
       }
     },
-    "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Infrastructure\\IParcialJasserRomero.Infrastructure.csproj": {
+    "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Infrastructure\\IParcialJasserRomero.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Infrastructure\\IParcialJasserRomero.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Infrastructure\\IParcialJasserRomero.Infrastructure.csproj",
         "projectName": "IParcialJasserRomero.Infrastructure",
-        "projectPath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Infrastructure\\IParcialJasserRomero.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\JADPA27\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Infrastructure\\IParcialJasserRomero.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\jasse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JADPA27\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jasse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -228,11 +232,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Common\\IParcialJasserRomero.Common.csproj": {
-                "projectPath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Common\\IParcialJasserRomero.Common.csproj"
+              "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Common\\IParcialJasserRomero.Common.csproj": {
+                "projectPath": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Common\\IParcialJasserRomero.Common.csproj"
               },
-              "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\IParcialJasserRomero.Domain.csproj": {
-                "projectPath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\IParcialJasserRomero.Domain.csproj"
+              "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\IParcialJasserRomero.Domain.csproj": {
+                "projectPath": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Domain\\IParcialJasserRomero.Domain.csproj"
               }
             }
           }
@@ -271,20 +275,21 @@
         }
       }
     },
-    "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Presentation\\IParcialJasserRomero.Presentation.csproj": {
+    "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Presentation\\IParcialJasserRomero.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Presentation\\IParcialJasserRomero.Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Presentation\\IParcialJasserRomero.Presentation.csproj",
         "projectName": "IParcialJasserRomero.Presentation",
-        "projectPath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Presentation\\IParcialJasserRomero.Presentation.csproj",
-        "packagesPath": "C:\\Users\\JADPA27\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Presentation\\obj\\",
+        "projectPath": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Presentation\\IParcialJasserRomero.Presentation.csproj",
+        "packagesPath": "C:\\Users\\jasse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JADPA27\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jasse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -298,11 +303,11 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.AppCore\\IParcialJasserRomero.AppCore.csproj": {
-                "projectPath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.AppCore\\IParcialJasserRomero.AppCore.csproj"
+              "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.AppCore\\IParcialJasserRomero.AppCore.csproj": {
+                "projectPath": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.AppCore\\IParcialJasserRomero.AppCore.csproj"
               },
-              "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Infrastructure\\IParcialJasserRomero.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\JADPA27\\source\\repos\\IParcialJasserRomero\\IParcialJasserRomero.Infrastructure\\IParcialJasserRomero.Infrastructure.csproj"
+              "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Infrastructure\\IParcialJasserRomero.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\jasse\\Source\\Repos\\IParcialJasserRomero\\IParcialJasserRomero.Infrastructure\\IParcialJasserRomero.Infrastructure.csproj"
               }
             }
           }

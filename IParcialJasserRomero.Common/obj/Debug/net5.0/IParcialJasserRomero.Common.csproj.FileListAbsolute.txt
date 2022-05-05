@@ -10,3 +10,15 @@ C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Common\o
 C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\IParcialJasserRomero.Common.dll
 C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\ref\IParcialJasserRomero.Common.dll
 C:\Users\JADPA27\source\repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\IParcialJasserRomero.Common.pdb
+C:\Users\jasse\Source\Repos\IParcialJasserRomero\IParcialJasserRomero.Common\bin\Debug\net5.0\IParcialJasserRomero.Common.deps.json
+C:\Users\jasse\Source\Repos\IParcialJasserRomero\IParcialJasserRomero.Common\bin\Debug\net5.0\IParcialJasserRomero.Common.dll
+C:\Users\jasse\Source\Repos\IParcialJasserRomero\IParcialJasserRomero.Common\bin\Debug\net5.0\IParcialJasserRomero.Common.pdb
+C:\Users\jasse\Source\Repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\IParcialJasserRomero.Common.csproj.AssemblyReference.cache
+C:\Users\jasse\Source\Repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\IParcialJasserRomero.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jasse\Source\Repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\IParcialJasserRomero.Common.AssemblyInfoInputs.cache
+C:\Users\jasse\Source\Repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\IParcialJasserRomero.Common.AssemblyInfo.cs
+C:\Users\jasse\Source\Repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\IParcialJasserRomero.Common.csproj.CoreCompileInputs.cache
+C:\Users\jasse\Source\Repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\IParcialJasserRomero.Common.dll
+C:\Users\jasse\Source\Repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\refint\IParcialJasserRomero.Common.dll
+C:\Users\jasse\Source\Repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\IParcialJasserRomero.Common.pdb
+C:\Users\jasse\Source\Repos\IParcialJasserRomero\IParcialJasserRomero.Common\obj\Debug\net5.0\ref\IParcialJasserRomero.Common.dll

@@ -36,7 +36,7 @@ namespace IParcialJasserRomero.Presentation
             // lblDetail
             // 
             this.lblDetail.AutoSize = true;
-            this.lblDetail.Location = new System.Drawing.Point(15, 12);
+            this.lblDetail.Location = new System.Drawing.Point(3, 0);
             this.lblDetail.Name = "lblDetail";
             this.lblDetail.Size = new System.Drawing.Size(40, 15);
             this.lblDetail.TabIndex = 0;
@@ -45,7 +45,7 @@ namespace IParcialJasserRomero.Presentation
             // lblDetailValue
             // 
             this.lblDetailValue.AutoSize = true;
-            this.lblDetailValue.Location = new System.Drawing.Point(34, 49);
+            this.lblDetailValue.Location = new System.Drawing.Point(22, 37);
             this.lblDetailValue.Name = "lblDetailValue";
             this.lblDetailValue.Size = new System.Drawing.Size(35, 15);
             this.lblDetailValue.TabIndex = 1;
@@ -58,7 +58,7 @@ namespace IParcialJasserRomero.Presentation
             this.Controls.Add(this.lblDetailValue);
             this.Controls.Add(this.lblDetail);
             this.Name = "DetailsWeather";
-            this.Size = new System.Drawing.Size(95, 87);
+            this.Size = new System.Drawing.Size(70, 72);
             this.ResumeLayout(false);
             this.PerformLayout();
 

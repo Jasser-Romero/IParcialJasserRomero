@@ -15,21 +15,21 @@ namespace IParcialJasserRomero.Presentation
 {
     public partial class Form1 : Form
     {
-        public HttpWeatherClient httpWeatherClient;
         public OpenWeather openWeather;
         public List<HistoricalWeather> historicalWeather;
         public IWeatherService weatherService;
-        public Form1(IWeatherService weatherService)
+        private IHttpWeatherService httpWeatherService;
+        public Form1(IWeatherService weatherService, IHttpWeatherService httpWeatherService)
         {
             this.weatherService = weatherService;
-            httpWeatherClient = new HttpWeatherClient();
+            this.httpWeatherService = httpWeatherService;
             InitializeComponent();
         }
 
         private async Task Request()
         {
-            openWeather = await httpWeatherClient.GetWeatherByCityNameAsync(textBox1.Text);
-            historicalWeather = await httpWeatherClient.GetHistoricalWeatherAsync(openWeather.Coord.Lat, openWeather.Coord.Lon);
+            openWeather = await httpWeatherService.GetWeatherByCityNameAsync(textBox1.Text);
+            historicalWeather = await httpWeatherService.GetHistoricalWeatherAsync(openWeather.Coord.Lat, openWeather.Coord.Lon);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -38,9 +38,8 @@ namespace IParcialJasserRomero.Presentation
             {
                 flowLayoutPanel2.Controls.Clear();
                 Task.Run(Request).Wait();
+
                 List<WeatherHistorial> list = historicalWeather.Select(x => WeatherHistorial.CreateHistorial(x)).ToList();
-                list.ForEach(x => weatherService.Create(x));
-                list.ForEach(x => weatherService.CreateDTO(x, openWeather));
 
                 if (openWeather == null)
                 {
@@ -49,23 +48,49 @@ namespace IParcialJasserRomero.Presentation
 
                 for (int i = 0; i < historicalWeather.Count; i++)
                 {
-
-                    DateTime dt = DateTimeOffset.FromUnixTimeSeconds(historicalWeather[i].Current.Dt).DateTime;
+                    DateTime dt = DateTimeOffset.FromUnixTimeSeconds(historicalWeather[i].Current.Dt).DateTime.Date;
 
                     WeatherPanel weatherPanel = new WeatherPanel();
                     weatherPanel.HistoricalWeather = historicalWeather[i];
-                    weatherPanel.lblFecha.Text = dt.ToString();
+                    weatherPanel.lblFecha.Text = dt.ToString("d");
                     weatherPanel.lblCity.Text = openWeather.Name;
-                    weatherPanel.lblTemp.Text = historicalWeather[i].Hourly[i].Temp.ToString();
+                    weatherPanel.lblTemp.Text = historicalWeather[i].Current.Temp.ToString() + "°C";
                     weatherPanel.lblTimezone.Text = historicalWeather[i].Timezone;
+                    weatherPanel.pictureBox1.ImageLocation = GetWeatherImage(historicalWeather[i].Current.Weather[0].Icon);
 
                     flowLayoutPanel2.Controls.Add(weatherPanel);
-
                 }
-            }
-            catch (Exception)
-            {
 
+                if(!weatherService.Read().Any())
+                {
+                    list.ForEach(x => weatherService.Create(x));
+                    list.ForEach(x => weatherService.CreateDTO(x, openWeather));
+                    return;
+                }
+
+                List<WeatherHistorial> list2 = weatherService.Read().Where(x => (x.Lat == list[0].Lat)).Select(x => x).ToList();
+
+                if (!list2.Any())
+                {
+                    list.ForEach(x => weatherService.Create(x));
+                    list.ForEach(x => weatherService.CreateDTO(x, openWeather));
+                    return;
+                }
+
+                for (int i = 0; i < list.Count; i++)
+                {
+                    if (list[i].Current.Dt != list2[i].Current.Dt)
+                    {
+                        weatherService.Create(list[i]);
+                        weatherService.CreateDTO(list[i], openWeather);
+                    } 
+                }
+
+                textBox1.Clear();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"{ex}");
             }
         }
 
@@ -77,6 +102,13 @@ namespace IParcialJasserRomero.Presentation
             frmHistorial.dataGridView1.DataSource = weatherService.ReadDTOs();
             frmHistorial.ShowDialog();
 
+        }
+
+        private string GetWeatherImage(string icon)
+        {
+            string image = "https://openweathermap.org/img/w/" + icon + ".png";
+
+            return image;
         }
     }
 }

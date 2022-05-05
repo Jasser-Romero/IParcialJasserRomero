@@ -36,7 +36,6 @@ namespace IParcialJasserRomero.Presentation
                     dataGridView1.DataSource = weatherService.ReadDTOs();
                     return;
                 }
-
                 dataGridView1.DataSource = GetListOfNames(weatherService.ReadDTOs(), textBox1.Text);
                 textBox1.Clear();
             }
@@ -44,7 +43,12 @@ namespace IParcialJasserRomero.Presentation
 
         private List<WeatherDTO> GetListOfNames(List<WeatherDTO> dtos, string nombre)
         {
-            return dtos.Where(x => x.Timezone == nombre).Select(x => x).ToList();
+            return dtos.Where(x => x.Name == nombre).Select(x => x).ToList();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

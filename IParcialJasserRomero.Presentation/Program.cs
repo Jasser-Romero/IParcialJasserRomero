@@ -2,6 +2,7 @@ using Autofac;
 using IParcialJasserRomero.AppCore.Interfaces;
 using IParcialJasserRomero.AppCore.Services;
 using IParcialJasserRomero.Domain.Interfaces;
+using IParcialJasserRomero.Infrastructure.Client;
 using IParcialJasserRomero.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
@@ -24,12 +25,15 @@ namespace IParcialJasserRomero.Presentation
             builder.RegisterType<BinaryWeatherRepository>().As<IWeatherModel>();
             builder.RegisterType<WeatherService>().As<IWeatherService>();
 
+            builder.RegisterType<HttpWeatherClient>().As<IHttpWeatherClient>();
+            builder.RegisterType<HttpWeatherService>().As<IHttpWeatherService>();
+
             var container = builder.Build();
 
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1(container.Resolve<IWeatherService>()));
+            Application.Run(new Form1(container.Resolve<IWeatherService>(), container.Resolve<IHttpWeatherService>()));
         }
     }
 }

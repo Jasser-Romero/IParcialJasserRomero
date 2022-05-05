@@ -32,8 +32,8 @@ namespace IParcialJasserRomero.Presentation
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnHistorial = new System.Windows.Forms.Button();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,14 +64,6 @@ namespace IParcialJasserRomero.Presentation
             this.flowLayoutPanel1.Size = new System.Drawing.Size(846, 65);
             this.flowLayoutPanel1.TabIndex = 2;
             // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 72);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(846, 473);
-            this.flowLayoutPanel2.TabIndex = 3;
-            // 
             // btnHistorial
             // 
             this.btnHistorial.Location = new System.Drawing.Point(358, 3);
@@ -82,11 +74,19 @@ namespace IParcialJasserRomero.Presentation
             this.btnHistorial.UseVisualStyleBackColor = true;
             this.btnHistorial.Click += new System.EventHandler(this.btnHistorial_Click);
             // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 72);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(1124, 482);
+            this.flowLayoutPanel2.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(846, 545);
+            this.ClientSize = new System.Drawing.Size(1124, 554);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "Form1";

@@ -14,7 +14,7 @@ namespace IParcialJasserRomero.Presentation
     public partial class WeatherPanel : UserControl
     {
         public HistoricalWeather HistoricalWeather { get; set; }
-        private string[] details = { "Description", "Feels like", "Pressure", "Clouds", "Dew Point", "Wind speed" };
+        private string[] details = { "Description", "Feels like", "Pressure", "Clouds", "Dew Point", "Wind speed", "Humidity", "Visibility" };
         public WeatherPanel()
         {
             InitializeComponent();
@@ -24,7 +24,8 @@ namespace IParcialJasserRomero.Presentation
         {
             try
             {
-                string[] detailsValues = { $"{HistoricalWeather.Current.Weather[0].Description}", $"{HistoricalWeather.Current.Feels_Like}", $"{HistoricalWeather.Current.Pressure} hPa", $"{HistoricalWeather.Current.Clouds}", $"{HistoricalWeather.Current.Dew_Point}", $"{HistoricalWeather.Current.Wind_Speed} m/s" };
+                string[] detailsValues = { $"{HistoricalWeather.Current.Weather[0].Description}", $"{HistoricalWeather.Current.Feels_Like}°C", $"{HistoricalWeather.Current.Pressure} hPa", $"{HistoricalWeather.Current.Clouds}%", $"{HistoricalWeather.Current.Dew_Point}°C", $"{HistoricalWeather.Current.Wind_Speed} m/s",
+                $"{HistoricalWeather.Current.Humidity}%", $"{HistoricalWeather.Current.Visibility}"};
 
                 for (int i = 0; i < details.Length; i++)
                 {

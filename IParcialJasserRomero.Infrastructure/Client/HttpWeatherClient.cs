@@ -1,5 +1,6 @@
 ﻿using IParcialJasserRomero.Common;
 using IParcialJasserRomero.Domain.Entities;
+using IParcialJasserRomero.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace IParcialJasserRomero.Infrastructure.Client
 {
-    public class HttpWeatherClient
+    public class HttpWeatherClient : IHttpWeatherClient
     {
         public async Task<OpenWeather> GetWeatherByCityNameAsync(string city)
         {
@@ -72,8 +73,6 @@ namespace IParcialJasserRomero.Infrastructure.Client
 
         private long[] GetUnixDateTime()
         {
-            //DateTime actual = DateTime.Now;
-            //return ((DateTimeOffset)actual).ToUnixTimeSeconds();
             long[] unixDateTimes = new long[5];
             for (int i = 0; i < 5; i++)
             {
